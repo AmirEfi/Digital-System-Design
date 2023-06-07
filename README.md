@@ -1,7 +1,7 @@
 # Digital-System-Design
 ## Digital System Design course - Fall 2022
 
-This is repository is for my DSD course.
+This repository is for my DSD course.
 
 I had 4 HWs for this course as you can see:
 
