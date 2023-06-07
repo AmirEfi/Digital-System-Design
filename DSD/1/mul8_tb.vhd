@@ -1,0 +1,21 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE work.ALL;
+
+ENTITY mul8_tb IS
+END mul8_tb;
+
+ARCHITECTURE tb OF mul8_tb IS
+
+    SIGNAL a , b: STD_LOGIC_VECTOR (7 DOWNTO 0);
+    SIGNAL output: STD_LOGIC_VECTOR (15 DOWNTO 0);
+
+BEGIN
+
+    UUT_mul8 : ENTITY mul8 PORT MAP (a => a, b => b, output => output);
+
+    a <= B"00000000", B"00001010" AFTER 30 ns, B"00010111" AFTER 60 ns, B"01101010" AFTER 90 ns, B"10101010" AFTER 120 ns, B"11111111" AFTER 150 ns;
+    b <= B"00000000", B"00000111" AFTER 30 ns, B"00000101" AFTER 60 ns, B"11001000" AFTER 90 ns, B"11110000" AFTER 120 ns, B"11111111" AFTER 150 ns;  
+      
+END tb ;
+
