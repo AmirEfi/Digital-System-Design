@@ -3,7 +3,7 @@
 
 This repository is for my DSD course.
 
-I had 4 HWs for this course as you can see:
+I had 4 assignments for this course as you can see:
 
 HW1: 8-bit Concurrent Multiplier
 
