@@ -1,6 +1,4 @@
-# Digital System Design course - Fall 2022
-
-This repository is for my DSD course.
+# DSD
 
 I had 4 assignments for this course as you can see:
 
