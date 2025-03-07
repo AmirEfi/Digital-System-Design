@@ -1,5 +1,4 @@
-# Digital-System-Design
-## Digital System Design course - Fall 2022
+# Digital System Design course - Fall 2022
 
 This repository is for my DSD course.
 
